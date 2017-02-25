@@ -1,7 +1,17 @@
 {
   "name": "rasp2c",
   "description": "Node wrapper for the i2c-tools on a Raspberry PI",
-  "keywords": [ "i2c", "raspberry", "raspberrypi", "i2c-tools", "i2cdetect", "i2cdump", "i2cset", "arduino", "twi" ],
+  "keywords": [
+    "i2c",
+    "raspberry",
+    "raspberrypi",
+    "i2c-tools",
+    "i2cdetect",
+    "i2cdump",
+    "i2cset",
+    "arduino",
+    "twi"
+  ],
   "version": "0.0.2",
   "homepage": "http://github.com/ni-c/node-rasp2c",
   "author": {
@@ -23,11 +33,17 @@
   "engines": {
     "node": "*"
   },
-  "repository" : { 
-    "type" : "git", 
-    "url" : "http://github.com/ni-c/node-rasp2c.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ni-c/node-rasp2c.git"
   },
   "readmeFilename": "README.md",
   "_id": "rasp2c@0.0.2",
-  "_from": "rasp2c@>= 0.0.2"
+  "_from": "rasp2c@>= 0.0.2",
+  "devDependencies": {
+    "eslint": "^3.16.1"
+  },
+  "dependencies": {
+    "debug": "^2.6.1"
+  }
 }
