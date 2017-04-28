@@ -2,7 +2,7 @@ var exec = require('child_process').exec;
 
 var i2cbus = '0';
 
-exports.init = function(initSuccessCallback) {
+exports.init = function(callback) {
   if( typeof String.prototype.startsWith != 'function') {
     String.prototype.startsWith = function(str) {
       return this.slice(0, str.length) == str;
@@ -18,8 +18,8 @@ exports.init = function(initSuccessCallback) {
     console.log('\u001b[34m[rasp2c]\u001b[32m Raspberry PI revision \u001b[33m%s\u001b[32m found\033[0m', revision);
     console.log('\u001b[34m[rasp2c]\u001b[32m Using I2C bus \u001b[33m%d\033[0m', i2cbus);
 
-    if (typeof (initSuccessCallback) === 'function') {
-      initSuccessCallback();
+    if (typeof callback === 'function') {
+      callback();
     }
   });
 };
