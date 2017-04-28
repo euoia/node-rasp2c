@@ -1,14 +1,18 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
+# Application
+# ######################
+/.env
 
-pids
-logs
-results
+# Node
+# ######################
+/node_modules
+/npm-debug.log
 
-npm-debug.log
+# OS generated files
+# ######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
