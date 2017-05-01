@@ -12,7 +12,7 @@
     "arduino",
     "twi"
   ],
-  "version": "0.0.2",
+  "version": "1.0.0",
   "homepage": "http://github.com/ni-c/node-rasp2c",
   "author": {
     "name": "Willi Thiel",
