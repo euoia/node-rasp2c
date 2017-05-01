@@ -1,5 +1,5 @@
 {
-  "name": "rasp2c",
+  "name": "@euoia/rasp2c",
   "description": "Node wrapper for the i2c-tools on a Raspberry PI",
   "keywords": [
     "i2c",
